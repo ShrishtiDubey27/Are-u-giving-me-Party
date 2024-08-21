@@ -1,0 +1,42 @@
+*{
+  background-color: black;
+  margin: 0px;
+  padding: zero;
+  color: white;
+}
+.box{
+  height: 600px;
+  width: 700px;
+  border: 3px solid rgb(26, 20, 77) ;
+  background-color:rgb(26, 20, 77) ;
+  margin: 70px 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.question{
+  text-align: center;
+  font-size: 30px;
+  background-color:rgb(26, 20, 77) ;
+}
+.button-container{
+  background-color:rgb(26, 20, 77) ;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.button-container button{
+  box-sizing: border-box;
+  font-size: 30px;
+  
+
+}
+
+.no{
+  position: absolute;
+  transition: .5s;
+}
+
